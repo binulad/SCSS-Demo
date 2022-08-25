@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SCSS Fundamental</title>
+
+    <!-- Attach style -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    
+    <!-- Font-Awesome -->
+    <script src="https://kit.fontawesome.com/e1b18a8fad.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <main class="wrapper">
+      <input type="checkbox" id="toggle-sidebar" />
+      <!-- Sidebar -->
+      <aside class="sidebar bg-primary">
+        <header class="logo">
+          <!-- Logo -->
+          <a href="#" class="text">
+            <span class="logo__large">1Rivet</span>
+            <span class="logo__small">1R</span>
+          </a>
+          <!-- End: Logo -->, 
+
+          <!-- Toggle Icon -->
+          <label class="menu-toggle" for="toggle-sidebar">
+            <span class="fa-solid fa-bars"></span>
+          </label>
+          <!-- End: Toggle Icon -->
+        </header>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item active">
+              <a href="#" class="nav__link">Nav Item</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Nav Item</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Nav Item</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Nav Item</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Nav Item</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Nav Item</a>
+            </li>
+          </ul>
+        </nav>
+      </aside>
+      <!-- End: Sidebar -->
+
+      <!-- Main Wrapper -->
+      <section class="main-wrapper">
+        <!-- Header -->
+        <header class="wrapper-header">
+          <h2 class="page-title">Page Title</h2>
+        </header>
+        <!-- End: Header -->
+
+        <!-- Content Area -->
+        <div class="content-wrapper">
+          <!-- Button Variations -->
+          <button class="btn btn-primary">Primary</button>
+          <button class="btn btn-secondary">Secondary</button>
+          <button class="btn btn-success">Success</button>
+          <button class="btn btn-warning">Warning</button>
+          <!-- End: Button Variations -->
+
+          <div class="card">
+            <h2>Card</h2>
+          </div>
+
+          <div class="card-test">
+            <h2>Test</h2>
+          </div>
+        </div>
+        <!-- End: Content Area -->
+      </section>
+      <!-- End: Main Wrapper -->
+    </main>
+  </body>
+</html>

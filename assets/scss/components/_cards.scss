@@ -1,0 +1,33 @@
+// Cards
+.multiple-cards {
+  display: flex;
+  align-items: center;
+  .card {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: 1px solid #dddddd;
+    height: 100px;
+    width: 100px;
+    margin-right: 10px;
+  }
+}
+
+.card {
+  border: 1px solid $border-color;
+  // @extend %content-center;
+  @include content-center;
+
+  @if $is-rounded {
+    border-radius: 0.25rem;
+  } @else {
+    border-radius: 0;
+  }
+}
+
+.card-test {
+  // @extend %content-center;
+  @include content-center;
+}

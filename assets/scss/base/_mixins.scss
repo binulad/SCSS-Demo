@@ -1,0 +1,12 @@
+@mixin content-center {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+// Mixin for button variants
+@mixin button-variant($bg-color, $border-color: #ddd) {
+  background-color: $bg-color;
+  color: color-yiq($bg-color);
+  border-color: $border-color;
+}
